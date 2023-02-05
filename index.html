@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homework-06</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/goit-markup-hw-06/css/styles.css" />
+  </head>
+  <body>
+    <header class="main-header">
+      <div class="container">
+        <div class="header-nav">
+          <a class="link-studio" href="/goit-markup-hw-06/index.html"
+            ><span>Web</span>Studio</a
+          >
+          <nav>
+            <!-- Nawigacja do innych stron -->
+            <ul class="site-nav">
+              <li><a class="link" href="/agencja">Agencja</a></li>
+              <li>
+                <a class="link" href="/goit-markup-hw-06/portfolio.html"
+                  >Portfolio</a
+                >
+              </li>
+              <li><a class="link" href="/kontakt">Kontakt</a></li>
+            </ul>
+          </nav>
+          <ul class="site-contacts">
+            <li>
+              <svg class="icon-envelope">
+                <use
+                  href="/goit-markup-hw-06/images/icons.svg#icon-envelope"
+                ></use>
+              </svg>
+            </li>
+            <li>
+              <a class="link-main" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <svg class="icon-smartphone">
+                <use
+                  href="/goit-markup-hw-06/images/icons.svg#icon-smartphone"
+                ></use>
+              </svg>
+            </li>
+            <li class="text-num">+48 111 111 111</li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <main>
+      <article class="main-article">
+        <div class="container">
+          <h1 class="title-main" lang="pl">
+            Efektywne rozwiązania <br />
+            dla waszego biznesu
+          </h1>
+          <button class="pointer" type="button" data-modal-open>
+            Zamów usługe
+          </button>
+        </div>
+      </article>
+      <section class="section-1">
+        <div class="container">
+          <ul class="main-section-one">
+            <div class="rectangle">
+              <li>
+                <svg class="icon-antenna-1">
+                  <use
+                    href="/goit-markup-hw-06/images/icons.svg#icon-antenna-1"
+                  ></use>
+                </svg>
+              </li>
+            </div>
+            <div class="rectangle">
+              <li>
+                <svg class="icon-clock-1">
+                  <use
+                    href="/goit-markup-hw-06/images/icons.svg#icon-clock-1"
+                  ></use>
+                </svg>
+              </li>
+            </div>
+            <div class="rectangle">
+              <li>
+                <svg class="icon-diagram-1">
+                  <use
+                    href="/goit-markup-hw-06/images/icons.svg#icon-diagram-1"
+                  ></use>
+                </svg>
+              </li>
+            </div>
+            <div class="rectangle">
+              <li>
+                <svg class="icon-astronaut-1">
+                  <use
+                    href="/goit-markup-hw-06/images/icons.svg#icon-astronaut-1"
+                  ></use>
+                </svg>
+              </li>
+            </div>
+          </ul>
+        </div>
+      </section>
+      <section class="section-2">
+        <div class="container">
+          <ul class="main-section-one">
+            <li class="main-text">
+              <h2 class="title">Lorem ipsum</h2>
+              <p class="text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
+                arcu sem. Sed non sodales dui. Interdum et malesuada
+              </p>
+            </li>
+            <li class="main-text">
+              <h2 class="title">Lorem ipsum</h2>
+              <p class="text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
+                arcu sem. Sed non sodales dui. Interdum et malesuada
+              </p>
+            </li>
+            <li class="main-text">
+              <h2 class="title">Lorem ipsum</h2>
+              <p class="text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
+                arcu sem. Sed non sodales dui. Interdum et malesuada
+              </p>
+            </li>
+            <li class="main-text">
+              <h2 class="title">Lorem ipsum</h2>
+              <p class="text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
+                arcu sem. Sed non sodales dui. Interdum et malesuada
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="section-3">
+        <div class="container">
+          <h2 class="title-item" lang="pl">Czym się zajmujemy</h2>
+          <ul class="main-section-two">
+            <li>
+              <figure class="card-image-figure">
+                <img
+                  class="card-image-no-gap"
+                  src="images/image1.jpg"
+                  alt="hands on the keyboard"
+                  width="370"
+                  height="294"
+                />
+                <figcaption>
+                  <p class="card-image-figcaprion">Aplikacje komputerowe</p>
+                </figcaption>
+              </figure>
+            </li>
+            <li>
+              <figure class="card-image-figure">
+                <img
+                  class="card-image-no-gap"
+                  src="images/image2.jpg"
+                  alt="person and laptop"
+                  width="370"
+                  height="294"
+                />
+                <figcaption>
+                  <p class="card-image-figcaprion">Aplikacje mobilne</p>
+                </figcaption>
+              </figure>
+            </li>
+            <li>
+              <figure class="card-image-figure">
+                <img
+                  class="card-image-no-gap"
+                  src="images/image3.jpg"
+                  alt="tablet in the hand"
+                  width="370"
+                  height="294"
+                />
+                <figcaption>
+                  <p class="card-image-figcaprion">Rozwiązania graficzne</p>
+                </figcaption>
+              </figure>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="section-4">
+        <div class="container">
+          <h2 class="title-item" lang="pl">Nasz zespół</h2>
+          <ul class="main-section-three">
+            <li>
+              <figure class="main-section-detail">
+                <!-- Dowolna treść graficzna: zdjęcie, wykres, diagram itp. -->
+                <div class="thumb">
+                  <img
+                    src="images/img1.jpg"
+                    alt="image of person"
+                    width="270"
+                    height="260"
+                  />
+                </div>
+                <figcaption class="main-section-caption">
+                  <p class="main-item">John Doe</p>
+                  <p class="main-item-prof">Product Designer</p>
+                  <ul class="social-media-icons">
+                    <div class="circle">
+                      <li>
+                        <svg class="icon-instagram-2">
+                          <use
+                            href="/goit-markup-hw-06/images/icons.svg#icon-instagram-2"
+                          ></use>
+                        </svg>
+                      </li>
+                    </div>
+                    <div class="circle">
+                      <li>
+                        <svg class="icon-twitter-1">
+                          <use
+                            href="/goit-markup-hw-06/images/icons.svg#icon-twitter-1"
+                          ></use>
+                        </svg>
+                      </li>
+                    </div>
+                    <div class="circle">
+                      <li>
+                        <svg class="icon-facebook-1">
+                          <use
+                            href="/goit-markup-hw-06/images/icons.svg#icon-facebook-1"
+                          ></use>
+                        </svg>
+                      </li>
+                    </div>
+                    <div class="circle">
+                      <li>
+                        <svg class="icon-linkedin-1">
+                          <use
+                            href="/goit-markup-hw-06/images/icons.svg#icon-linkedin-1"
+                          ></use>
+                        </svg>
+                      </li>
+                    </div>
+                  </ul>
+                </figcaption>
+              </figure>
+            </li>
+            <li>
+              <figure class="main-section-detail">
+                <!-- Dowolna treść graficzna: zdjęcie, wykres, diagram itp. -->
+                <div class="thumb">
+                  <img
+                    src="images/img2.jpg"
+                    alt="image of person"
+                    width="270"
+                    height="260"
+                  />
+                </div>
+                <figcaption class="main-section-caption">
+                  <p class="main-item">John Doe</p>
+                  <p class="main-item-prof">Frontend Developer</p>
+                  <ul class="social-media-icons">
+                    <div class="circle">
+                      <li>
+                        <svg class="icon-instagram-2">
+                          <use
+                            href="/goit-markup-hw-06/images/icons.svg#icon-instagram-2"
+                          ></use>
+                        </svg>
+                      </li>
+                    </div>
+                    <div class="circle">
+                      <li>
+                        <svg class="icon-twitter-1">
+                          <use
+                            href="/goit-markup-hw-06/images/icons.svg#icon-twitter-1"
+                          ></use>
+                        </svg>
+                      </li>
+                    </div>
+                    <div class="circle">
+                      <li>
+                        <svg class="icon-facebook-1">
+                          <use
+                            href="/goit-markup-hw-06/images/icons.svg#icon-facebook-1"
+                          ></use>
+                        </svg>
+                      </li>
+                    </div>
+                    <div class="circle">
+                      <li>
+                        <svg class="icon-linkedin-1">
+                          <use
+                            href="/goit-markup-hw-06/images/icons.svg#icon-linkedin-1"
+                          ></use>
+                        </svg>
+                      </li>
+                    </div>
+                  </ul>
+                </figcaption>
+              </figure>
+            </li>
+            <li>
+              <figure class="main-section-detail">
+                <!-- Dowolna treść graficzna: zdjęcie, wykres, diagram itp. -->
+                <div class="thumb">
+                  <img
+                    src="images/img3.jpg"
+                    alt="image of person"
+                    width="270"
+                    height="260"
+                  />
+                </div>
+                <figcaption class="main-section-caption">
+                  <p class="main-item">John Doe</p>
+                  <p class="main-item-prof">Marketing</p>
+                  <ul class="social-media-icons">
+                    <div class="circle">
+                      <li>
+                        <svg class="icon-instagram-2">
+                          <use
+                            href="/goit-markup-hw-06/images/icons.svg#icon-instagram-2"
+                          ></use>
+                        </svg>
+                      </li>
+                    </div>
+                    <div class="circle">
+                      <li>
+                        <svg class="icon-twitter-1">
+                          <use
+                            href="/goit-markup-hw-06/images/icons.svg#icon-twitter-1"
+                          ></use>
+                        </svg>
+                      </li>
+                    </div>
+                    <div class="circle">
+                      <li>
+                        <svg class="icon-facebook-1">
+                          <use
+                            href="/goit-markup-hw-06/images/icons.svg#icon-facebook-1"
+                          ></use>
+                        </svg>
+                      </li>
+                    </div>
+                    <div class="circle">
+                      <li>
+                        <svg class="icon-linkedin-1">
+                          <use
+                            href="/goit-markup-hw-06/images/icons.svg#icon-linkedin-1"
+                          ></use>
+                        </svg>
+                      </li>
+                    </div>
+                  </ul>
+                </figcaption>
+              </figure>
+            </li>
+            <li>
+              <figure class="main-section-detail">
+                <!-- Dowolna treść graficzna: zdjęcie, wykres, diagram itp. -->
+                <div class="thumb">
+                  <img
+                    src="images/img4.jpg"
+                    alt="image of person"
+                    width="270"
+                    height="260"
+                  />
+                </div>
+                <figcaption class="main-section-caption">
+                  <p class="main-item">John Doe</p>
+                  <p class="main-item-prof">UI Designer</p>
+                  <ul class="social-media-icons">
+                    <div class="circle">
+                      <li>
+                        <svg class="icon-instagram-2">
+                          <use
+                            href="/goit-markup-hw-06/images/icons.svg#icon-instagram-2"
+                          ></use>
+                        </svg>
+                      </li>
+                    </div>
+                    <div class="circle">
+                      <li>
+                        <svg class="icon-twitter-1">
+                          <use
+                            href="/goit-markup-hw-06/images/icons.svg#icon-twitter-1"
+                          ></use>
+                        </svg>
+                      </li>
+                    </div>
+                    <div class="circle">
+                      <li>
+                        <svg class="icon-facebook-1">
+                          <use
+                            href="/goit-markup-hw-06/images/icons.svg#icon-facebook-1"
+                          ></use>
+                        </svg>
+                      </li>
+                    </div>
+                    <div class="circle">
+                      <li>
+                        <svg class="icon-linkedin-1">
+                          <use
+                            href="/goit-markup-hw-06/images/icons.svg#icon-linkedin-1"
+                          ></use>
+                        </svg>
+                      </li>
+                    </div>
+                  </ul>
+                </figcaption>
+              </figure>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="section-5">
+        <div class="container">
+          <h2 class="title-item" lang="pl">Nasi klienci</h2>
+          <ul class="main-section-clients">
+            <div class="rectangle-clients">
+              <li>
+                <svg class="icon-client-1">
+                  <use
+                    href="/goit-markup-hw-06/images/icons.svg#icon-client-1"
+                  ></use>
+                </svg>
+              </li>
+            </div>
+            <div class="rectangle-clients">
+              <li>
+                <svg class="icon-client-2">
+                  <use
+                    href="/goit-markup-hw-06/images/icons.svg#icon-client-2"
+                  ></use>
+                </svg>
+              </li>
+            </div>
+            <div class="rectangle-clients">
+              <li>
+                <svg class="icon-client-3">
+                  <use
+                    href="/goit-markup-hw-06/images/icons.svg#icon-client-3"
+                  ></use>
+                </svg>
+              </li>
+            </div>
+            <div class="rectangle-clients">
+              <li>
+                <svg class="icon-client-4">
+                  <use
+                    href="/goit-markup-hw-06/images/icons.svg#icon-client-4"
+                  ></use>
+                </svg>
+              </li>
+            </div>
+            <div class="rectangle-clients">
+              <li>
+                <svg class="icon-client-5">
+                  <use
+                    href="/goit-markup-hw-06/images/icons.svg#icon-client-5"
+                  ></use>
+                </svg>
+              </li>
+            </div>
+            <div class="rectangle-clients">
+              <li>
+                <svg class="icon-client-6">
+                  <use
+                    href="/goit-markup-hw-06/images/icons.svg#icon-client-6"
+                  ></use>
+                </svg>
+              </li>
+            </div>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer class="contacts-down">
+      <div class="container">
+        <div class="cont-foot">
+          <a class="link-studio-footer" href="/goit-markup-hw-06/index.html"
+            ><span>Web</span>Studio</a
+          >
+          <address class="text-down">
+            m. Warszawa, Aleje Jerozolimskie 21 <br />
+            <a class="link-main" href="mailto:info@example.com"
+              >info@example.com</a
+            >
+            <br />
+            <span>+48 111 111 111</span>
+          </address>
+        </div>
+        <div class="cont-foot">
+          <h2 class="title-footer" lang="pl">Dołącz do nas</h2>
+          <ul class="social-media-icons-footer">
+            <div class="circle">
+              <li>
+                <svg class="icon-instagram-2">
+                  <use
+                    href="/goit-markup-hw-06/images/icons.svg#icon-instagram-2"
+                  ></use>
+                </svg>
+              </li>
+            </div>
+            <div class="circle">
+              <li>
+                <svg class="icon-twitter-1">
+                  <use
+                    href="/goit-markup-hw-06/images/icons.svg#icon-twitter-1"
+                  ></use>
+                </svg>
+              </li>
+            </div>
+            <div class="circle">
+              <li>
+                <svg class="icon-facebook-1">
+                  <use
+                    href="/goit-markup-hw-06/images/icons.svg#icon-facebook-1"
+                  ></use>
+                </svg>
+              </li>
+            </div>
+            <div class="circle">
+              <li>
+                <svg class="icon-linkedin-1">
+                  <use
+                    href="/goit-markup-hw-06/images/icons.svg#icon-linkedin-1"
+                  ></use>
+                </svg>
+              </li>
+            </div>
+          </ul>
+        </div>
+        <div class="cont-foot">
+          <form>
+            <label class="main-form-text" for="user_email"
+              >Zapisz się do newslettera</label
+            >
+            <input
+              class="main-form-data"
+              type="email"
+              name="email"
+              id="user_email"
+              placeholder="E-mail"
+            />
+            <button class="main-form-button" type="submit">Zapisz się</button>
+            <svg class="icon-send">
+              <use
+                href="/goit-markup-hw-06/images/icons.svg#icon-icon-send1"
+              ></use>
+            </svg>
+          </form>
+        </div>
+      </div>
+    </footer>
+
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button type="button" class="close-btn" data-modal-close>X</button>
+        <div>
+          <p class="form-input-text">Zostaw swoje dane w formularzu poniżej</p>
+          <form class="feedback-data-user">
+            <label class="feedback-data-contacts">
+              <div class="feedback-text-contacts">Imie</div>
+              <svg class="icon-person">
+                <use
+                  href="/goit-markup-hw-06/images/icons.svg#icon-person-black-18dp-11"
+                ></use>
+              </svg>
+              <input class="feedback-data-form" type="text" name="username" />
+            </label>
+            <label class="feedback-data-contacts">
+              <div class="feedback-text-contacts">Telefon</div>
+              <svg class="icon-phone">
+                <use
+                  href="/goit-markup-hw-06/images/icons.svg#icon-phone-black-18dp-1"
+                ></use>
+              </svg>
+              <input
+                class="feedback-data-form"
+                type="tel"
+                name="phone_number"
+              />
+            </label>
+            <label class="feedback-data-contacts">
+              <div class="feedback-text-contacts">Email</div>
+              <svg class="icon-email">
+                <use
+                  href="/goit-markup-hw-06/images/icons.svg#icon-email-black-18dp-11"
+                ></use>
+              </svg>
+              <input class="feedback-data-form" type="email" name="email" />
+            </label>
+            <label class="feedback-data-contacts">
+              <div class="feedback-text-contacts">Komentarz</div>
+              <textarea
+                class="feedback-text"
+                name="feedback"
+                placeholder="Wprowadź tekst"
+              ></textarea>
+            </label>
+            <label class="feedback-data-checkbox">
+              <input type="checkbox" name="checkbox" value="icon-check" />
+              <div class="feedback-data-regular">
+                Oświadczam iż akceptuję <span>Regulamin</span> i
+                <span>Politykę Prywatności.</span>
+              </div>
+            </label>
+            <button class="feedback-button" type="submit">Wyślij</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script src="./js/modal.js"></script>
+  </body>
+</html>
