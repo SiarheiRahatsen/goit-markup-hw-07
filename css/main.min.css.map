@@ -1,1 +1,1 @@
-{"version":3,"sources":[],"names":[],"mappings":"","file":"main.min.css"}
+{"version":3,"sources":["../sass/components/_navigation.scss","../sass/main.scss","../sass/utils/_vars.scss"],"names":[],"mappings":"AAAA,UACI,mBAAA,CAAA,mBAAA,CAAA,YAAA,CACA,eAAA,CACA,qBAAA,CAAA,kBAAA,CAAA,oBAAA,CACA,wBAAA,CAAA,qBAAA,CAAA,kBAAA,CCCJ,KACI,+BAAA,CACA,aCPS,CDSb,WACI,YAAA,CACA,aAAA,CACA,WAAA,CACA,WAAA,CAEJ,aACI,+BAAA","file":"main.min.css"}
