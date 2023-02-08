@@ -1,6 +1,9 @@
 @import "./utils/vars";
 @import "./components/logo";
 @import "./components/navigation";
+@import "./components/article";
+@import "./components/section-one";
+@import "./components/section-two";
 
 
 
@@ -16,4 +19,12 @@ body {
 }
 .main-header {
     border-bottom: 1px solid $header-color;
+}
+.section-one {
+    padding-top: 94px;
+    padding-bottom: 30px;
+}
+.section-two {
+    padding-top: 0px;
+    padding-bottom: 94px;
 }

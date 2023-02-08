@@ -25,13 +25,13 @@
 
     &::after {
     content: "";
-    display: inline-block;
-    background: $main-color;
-    width: 100%;
-    margin-bottom: -37px;
-    padding: 2px;
-    border-radius: 2px;
-    visibility: hidden;
+        display: inline-block;
+        background: $main-color;
+        width: 100%;
+        margin-bottom: -37px;
+        padding: 2px;
+        border-radius: 2px;
+        visibility: hidden;
     }
 
     &:hover::after {
@@ -43,7 +43,57 @@
     &:hover,
     &:focus,
     &:active {
-    color: $brand-color;
-    transition: $main-transition;
+        color: $brand-color;
+        transition: $main-transition;
     }
+}
+.main-nav__contacts {
+    display: flex;
+    list-style: none;
+    padding: 0%;
+    margin: 32px 0px 32px 255px;
+    text-align: right;
+}
+.main-nav__icon-envelope {
+    width: 16px;
+    height: 12px;
+    margin: 0%;
+    margin-right: 10px;
+    cursor: pointer;
+
+    &:hover {
+        fill: $brand-color;
+        transition: $main-transition;
+    }
+}
+.main-nav__item-mail {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    padding-right: 50px;
+    padding: 0px;
+    text-align: center;
+    color: $primary-color;
+
+    &:hover,
+    &:focus,
+    &:active {
+        color: $brand-color;
+        transition: $main-transition;
+    }
+}
+.main-nav__icon-smartphone {
+    width: 10px;
+    height: 16px;
+    margin-left: 30px;
+}
+.main-nav__item-tel {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: $primary-color;
+    margin-left: 10px;
 }
