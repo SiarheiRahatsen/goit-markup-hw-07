@@ -4,6 +4,7 @@
 @import "./components/article";
 @import "./components/section-one";
 @import "./components/section-two";
+@import "./components/section-three";
 
 
 
@@ -24,7 +25,8 @@ body {
     padding-top: 94px;
     padding-bottom: 30px;
 }
-.section-two {
+.section-two,
+.section-three {
     padding-top: 0px;
     padding-bottom: 94px;
 }
