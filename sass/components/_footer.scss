@@ -1,0 +1,55 @@
+.main-footer {
+    background-color: $mainFooter-color;
+    width: 1600px;
+    margin: 0 auto;
+    padding: 0px;
+    background-position: center center;
+    display: flex;
+}
+.main-footer__contacts {
+    display: inline-block;
+    padding: 0px;
+
+    &:first-child {
+        margin-top: 60px;
+        margin-right: 70px;
+        margin-bottom: 60px;
+    }
+
+    &:last-child {
+        margin-top: 72px;
+        margin-left: 78px;
+    }
+}
+.main-footer__item-address {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    color: $title-color;
+}
+.main-footer__item-tel {
+    color: rgba(109, 101, 101, 0.6);
+}
+.main-footer__item-mail {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    padding-right: 50px;
+    padding: 0px;
+    text-align: center;
+    color: $primary-color;
+
+    &:hover,
+    &:focus,
+    &:active {
+        color: $brand-color;
+        transition: $main-transition;
+}
+}
